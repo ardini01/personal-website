@@ -313,8 +313,9 @@ body {
 .slide img{
 	width: 800px;
 	height: 550px;
-}
 
+
+}
 .navigation-manual{
 	position: absolute;
 	width: 800px;
@@ -370,6 +371,10 @@ body {
 
 }
 
+#radio8:checked ~ .first{
+	margin-left: -140%;
+}
+
 .navigation-auto{
 	position: absolute;
 	display: flex;
@@ -407,7 +412,12 @@ body {
 }
 #radio6:checked ~ navigation-auto.auto-btn6{
 	background: #40d3dc;
-
+}
+#radio7:checked ~ navigation-auto.auto-btn6{
+	background: #40d3dc;
+}
+#radio8:checked ~ navigation-auto.auto-btn6{
+	background: #40d3dc;
 }
 
 .container-education{
@@ -464,7 +474,7 @@ body {
 }
 
 .timeline-content .date{
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 300;
 	margin-bottom: 10px;
 	letter-spacing: 2px;
